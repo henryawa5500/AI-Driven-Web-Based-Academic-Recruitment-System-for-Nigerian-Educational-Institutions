@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+
+{% block title %}Home - AI Academic Recruitment System{% endblock %}
+
+{% block content %}
+<div class="hero-section text-center py-5 bg-light">
+    <div class="container">
+        <h1 class="display-4 mb-4">AI-Driven Academic Recruitment</h1>
+        <p class="lead mb-4">Revolutionizing academic hiring in Nigerian institutions with fair and efficient AI-powered matching.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="{{ url_for('jobs') }}" class="btn btn-primary btn-lg px-4 gap-3">Browse Jobs</a>
+            <a href="{{ url_for('register') }}" class="btn btn-outline-secondary btn-lg px-4">Register</a>
+        </div>
+    </div>
+</div>
+
+<div class="features-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Key Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-robot display-4 mb-3 text-primary"></i>
+                        <h3 class="card-title">AI-Powered Matching</h3>
+                        <p class="card-text">Advanced algorithms match candidates with positions based on skills, experience, and qualifications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-shield-check display-4 mb-3 text-primary"></i>
+                        <h3 class="card-title">Bias Detection</h3>
+                        <p class="card-text">Built-in bias detection ensures fair and equitable hiring practices across all demographic groups.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <i class="bi bi-graph-up display-4 mb-3 text-primary"></i>
+                        <h3 class="card-title">Performance Analytics</h3>
+                        <p class="card-text">Comprehensive analytics help institutions optimize their recruitment processes and outcomes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="how-it-works py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">How It Works</h2>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <i class="bi bi-file-earmark-text display-6"></i>
+                    </div>
+                    <h4 class="mt-3">Upload Resume</h4>
+                    <p>Candidates upload their resumes and academic credentials.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <i class="bi bi-search display-6"></i>
+                    </div>
+                    <h4 class="mt-3">AI Analysis</h4>
+                    <p>Our AI system analyzes and extracts key information from resumes and job postings.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <i class="bi bi-arrow-left-right display-6"></i>
+                    </div>
+                    <h4 class="mt-3">Smart Matching</h4>
+                    <p>Advanced algorithms match candidates with suitable positions.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary text-white d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <i class="bi bi-check-circle display-6"></i>
+                    </div>
+                    <h4 class="mt-3">Fair Selection</h4>
+                    <p>Bias detection ensures fair and equitable hiring decisions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">What Our Users Say</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">"The AI matching system helped us find the perfect candidate for our Computer Science department. The process was efficient and fair."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <i class="bi bi-person-circle display-6"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-0">Prof. Adebayo</h5>
+                                <p class="text-muted mb-0">Head of Department, University of Lagos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">"As a recent PhD graduate, I found the perfect position through this platform. The matching was accurate and the process was transparent."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <i class="bi bi-person-circle display-6"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-0">Dr. Chidinma</h5>
+                                <p class="text-muted mb-0">Assistant Professor, Obafemi Awolowo University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">"The bias detection feature has helped us ensure our hiring process is fair and inclusive. Highly recommended for academic institutions."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="flex-shrink-0">
+                                <i class="bi bi-person-circle display-6"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-0">Prof. Ibrahim</h5>
+                                <p class="text-muted mb-0">Dean, Ahmadu Bello University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section py-5 bg-primary text-white text-center">
+    <div class="container">
+        <h2 class="mb-4">Ready to Transform Your Academic Recruitment?</h2>
+        <p class="lead mb-4">Join leading Nigerian institutions in adopting fair and efficient AI-powered hiring.</p>
+        <a href="{{ url_for('register') }}" class="btn btn-light btn-lg">Get Started</a>
+    </div>
+</div>
+{% endblock %} 

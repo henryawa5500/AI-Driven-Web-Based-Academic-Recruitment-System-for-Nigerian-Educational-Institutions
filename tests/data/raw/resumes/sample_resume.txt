@@ -1,0 +1,46 @@
+Dr. John A. Smith
+john.smith@email.com
+
+EDUCATION
+PhD in Computer Science
+University of Ibadan, Nigeria
+2018-2022
+Thesis: "Deep Learning Approaches for Natural Language Processing"
+
+MSc in Computer Science
+University of Lagos, Nigeria
+2015-2017
+Thesis: "Machine Learning for Text Classification"
+
+BSc in Computer Science
+Obafemi Awolowo University, Nigeria
+2011-2015
+
+EXPERIENCE
+Assistant Professor
+Department of Computer Science
+University of Lagos
+2022-Present
+- Teaching undergraduate and graduate courses
+- Supervising research projects
+- Developing curriculum for AI courses
+
+Research Assistant
+AI Research Lab
+University of Ibadan
+2017-2018
+- Conducted research in NLP
+- Published papers in top conferences
+- Developed machine learning models
+
+SKILLS
+- Programming: Python, Java, C++
+- Machine Learning: TensorFlow, PyTorch
+- Natural Language Processing
+- Deep Learning
+- Research and Publication
+- Teaching and Mentoring
+
+PUBLICATIONS
+1. Smith, J.A., et al. (2023). "Advanced NLP Techniques for African Languages". Journal of AI Research.
+2. Smith, J.A., et al. (2021). "Deep Learning for Text Classification". Conference on Machine Learning. 
